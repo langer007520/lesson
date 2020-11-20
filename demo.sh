@@ -9,7 +9,7 @@ fi
 
 mkdir $1 && cd $1
 mkdir css && mkdir js
-echo '<!DOCTYPE>\n<title>Hello</title>\n<h1>Hi</h1>' > index.js
+echo '<!DOCTYPE>\n<title>Hello</title>\n<h1>Hi</h1>' > index.html
 cd css
 echo 'h1{color: red;}' > style.css
 cd ../js
